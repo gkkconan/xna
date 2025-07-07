@@ -1,3 +1,9 @@
+# eNanalyser - Network analysis tool
+# Copyright (c) 2025 Your Name
+# Licensed under the GNU General Public License v3.0 (GPL-3.0)
+
+
+
 from scapy.all import ARP, Ether, srp
 import nmap
 import time
