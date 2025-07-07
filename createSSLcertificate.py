@@ -1,3 +1,8 @@
+# eNanalyser - Network analysis tool
+# Copyright (c) 2025 Manuel Sarullo
+# Licensed under the GNU General Public License v3.0 (GPL-3.0)
+
+
 from cryptography import x509
 from cryptography.x509.oid import NameOID
 from cryptography.hazmat.primitives import serialization, hashes
