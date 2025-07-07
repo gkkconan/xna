@@ -1,0 +1,14 @@
+scapy
+python-nmap
+mac-vendor-lookup
+networkx
+dash
+plotly
+pyshark
+psutil
+scikit-learn
+numpy
+joblib
+requests
+flask
+flask-talisman
