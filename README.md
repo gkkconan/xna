@@ -7,7 +7,7 @@
    <img src="https://img.shields.io/github/last-commit/M4nuel0/eNanalyser?style=for-the-badge" alt="Last Commit">
 </div>
 
-<br><br>
+<br>
 
 **eNanalyser** is an advanced, plugin-based network analysis toolkit designed for real-time monitoring, anomaly detection using machine learning, vulnerability scanning via API, phishing emulation, and more.
 
@@ -19,7 +19,6 @@ It is fully open-source and supports both **Standard** and **Premium** feature s
 ---
 
 ## Table of Contents
-- [Overview](#enanalyser)
 - [Features](#features)
 - [Project Structure](#-project-structure)
 - [Setup Instructions](#️-setup-instructions)
