@@ -1,4 +1,13 @@
-# eNanalyser
+<div align="center">
+   <h1> eNanalyser </h1>
+   <img src="https://img.shields.io/github/license/M4nuel0/eNanalyser?color=blue&style=for-the-badge" alt="License">
+   <img src="https://img.shields.io/badge/python-3.7%2B-blue?style=for-the-badge" alt="Python Version">
+   <img src="https://img.shields.io/github/issues/M4nuel0/eNanalyser?style=for-the-badge" alt="Issues">
+   <img src="https://img.shields.io/github/stars/M4nuel0/eNanalyser?style=for-the-badge&color=yellow" alt="Stars">
+   <img src="https://img.shields.io/github/last-commit/M4nuel0/eNanalyser?style=for-the-badge" alt="Last Commit">
+</div>
+
+<br><br>
 
 **eNanalyser** is an advanced, plugin-based network analysis toolkit designed for real-time monitoring, anomaly detection using machine learning, vulnerability scanning via API, phishing emulation, and more.
 
