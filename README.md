@@ -31,14 +31,14 @@ It is fully open-source and supports both **Standard** and **Premium** feature s
 
 ---
 
-### Features
-- 🖥️ ARP scanning and network device detection using `scapy`
-- 📊 Real-time interactive dashboard with `Dash` and `Plotly`
-- 🧠 Network anomaly detection with `Isolation Forest`
-- 🧪 Phishing site detection with optional HTTPS emulation
-- 🔍 Exploit scanning via the `Vulners` API
-- 🔌 Modular plugin system – extend or disable features easily
-- 🔐 Toggle between Standard and Premium mode
+### 🛠️ Features
+- ARP scanning and network device detection using `scapy`
+- Real-time interactive dashboard with `Dash` and `Plotly`
+- Network anomaly detection with `Isolation Forest`
+- Phishing site detection with optional HTTPS emulation
+- Exploit scanning via the `Vulners` API
+- Modular plugin system – extend or disable features easily
+- Toggle between Standard and Premium mode
 
 
 ### 📁 Project Structure
@@ -100,7 +100,7 @@ Here there's a list with major dependencies used:
 - networkx
 - threading
 - datetime
-> See requirements.txt for the full list.
+> See [requirements.txt](requirements.txt) for the full list.
 
 
 ## 🔐 License
