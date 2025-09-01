@@ -346,6 +346,9 @@ def run_dashboard(devices):
     )
     app.title = "EN-ANALYSER"
 
+    snapshot_data = {}
+    snapshot_auto_data = {}
+
     # Snapshot plugin check
     if IS_PREMIUM_USER:
         snapshot_plugin = get_plugin("snapshot_dec")
@@ -353,13 +356,10 @@ def run_dashboard(devices):
             print("[!] Plugin snapshot_dec not found")
             return  
         load_saved_snapshot = get_plugin("load_saved_snapshot")
-        snapshot_data = load_saved_snapshot() if load_saved_snapshot else None
+        if load_saved_snapshot: snapshot_data = load_saved_snapshot() or {}
         
         from plugins.snapshot_tool import generate_and_save_snapshot
-
-        snapshot_auto_data = generate_and_save_snapshot(fig)
-        if snapshot_auto_data is None:
-            snapshot_auto_data = {}  # fallback
+        snapshot_auto_data = generate_and_save_snapshot(fig) or {}
     else:
         snapshot_data = {}
 
